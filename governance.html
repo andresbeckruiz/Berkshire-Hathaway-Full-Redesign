@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- Navigation Bar adapted from Coding Nepal - www.codingnepalweb.com -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Berkshire Hathaway Inc.</title>
+        <link rel="stylesheet" href="governance.css">
+        <script src="https://use.fontawesome.com/9a114ec0cd.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+                <div class="content">
+                    <div class="company-logo"><a href="index.html">Berkshire Hathaway
+                            Inc.</a></div>
+                    <ul class="links">
+                        <li>
+                            <a href="#" class="desktop-link">Investing</a>
+                            <input type="checkbox" id="show-investing">
+                            <label for="show-investing">Investing</label>
+                            <ul>
+                                <li><a href="#">SEC Filings</a></li>
+                                <li><a href="#">2021 Investor Presentation</a></li>
+                                <li><a href="#">Common Stock Information</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link">Reports</a>
+                            <input type="checkbox" id="show-reports">
+                            <label for="show-reports">Reports</label>
+                            <ul>
+                                <li><a href="#">Annual Meeting Information</a></li>
+                                <li><a href="#">Interim Reports</a></li>
+                                <li><a href="#">Letters</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link">About Us</a>
+                            <input type="checkbox" id="show-about-us">
+                            <label for="show-about-us">About Us</label>
+                            <ul>
+                                <li><a href="#">Subsidiary Companies</a></li>
+                                <li><a href="#">Corporate Governance</a></li>
+                                <li><a href="#">Sustainability</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link">More</a>
+                            <input type="checkbox" id="show-more">
+                            <label for="show-more">More</label>
+                            <ul>
+                                <li><a href="https://berkshirewear.com/">Berkshire
+                                        Activewear</a></li>
+                                <li><a
+                                        href="https://www.ebay.com/itm/185106486239">Celebrating
+                                        50 Years</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <label for="show-search" class="search-icon"><i class="fa
+                        fa-search"></i></label>
+                <form action="#" class="search-box">
+                    <input type="text" placeholder="Search Berkshire
+                        Hathaway..."
+                        required>
+                    <button type="submit" class="go-icon"><i class="fa
+                            fa-long-arrow-alt-right"></i></button>
+                </form>
+            </nav>
+        </div>
+        <!-- Content -->
+        <div class="wrapper2">
+            <div class="sidebar">
+                <a class="nav-link" href="#context"> Context </a>
+                <a class="nav-link" href="#inspiration"> Inspiration </a>
+                <a class="nav-link" href="#features"> Features </a>
+                <a class="nav-link" href="#interface"> Interface </a>
+                <a class="nav-link" href="#conclusion"> Conclusion </a>
+
+            </div>
+            <div>
+                <h1>Rhode Island Trails Development
+                </h1>
+                <h2 id="context"> Context </h2>
+                <p> I created an application to enable users to view and track
+                    their completed Rhode Island hiking trails. I first found my
+                    hiking trail data on AllTrails to and other online sources.
+                    I
+                    then brainstormed how I wanted to visually represent each
+                    hiking trail and how to design a system for tracking
+                    completed trails. Finally, I used React to create the final
+                    application. </p>
+                <h2 id="inspiration"> Inspiration </h2>
+
+                <p> Hiking is one of my favorite hobbies, and I love spending
+                    time outdoors. I have
+                    used applications such as AllTrails to find new hiking
+                    trails, but wanted to create
+                    an interface focused on hiking in Rhode Island. I also am
+                    a big fan of Strava, an app that allows users to keep track
+                    of their physical exercise. This inspired me to create
+                    an interface that allows users to both explore trails and
+                    keep track of their distance hiked. </p>
+
+                <h2 id="features"> Features </h2>
+
+                <p> Here are some features that I included in my interface: </p>
+                <div class="list">
+                    <ul>
+                        <li>
+                            3 filtering categories
+                        </li>
+                        <li>
+                            2 sorting categories
+                        </li>
+                        <li>
+                            Functionality to add or remove each hiking trail to
+                            aggregator comonent
+                        </li>
+                        <li>
+                            Aggregator component that tracks total miles
+                            hiked
+                        </li>
+                        <li>
+                            Reset functionality for aggregator and filters/sorts
+                        </li>
+                    </ul>
+
+                </div>
+
+                <h2 id="interface">Interface</h2>
+
+                <p> I built this interface with React and used state and props
+                    to create interactive components. In order to allow users to
+                    filter and sort data or add hiking trail components to the
+                    aggregator, I had to use state variables to make the UI
+                    reactive. I used props in order to pass data from the
+                    top-level component into other components. </p>
+                <button class="button body-button"
+                    onclick="window.location='https://excitedpenguin777.github.io/Hiking-Trails-Development/';">
+                    View interface
+                </button>
+                <h2 id="conclusion"> Conclusion </h2>
+
+                <p class="conclusion">
+                    I gained experience using React while developing my
+                    application. I learned about how to organize a large
+                    amount of code into separate components based on
+                    functionality. I also learned how to use state to make an
+                    application visually responsive to user interaction.
+                    While coding a project like this is usually out of scope for
+                    a product
+                    manager, it is important to understand
+                    frameworks such as React in order to collaborate effectively
+                    with
+                    engineers.
+
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>
