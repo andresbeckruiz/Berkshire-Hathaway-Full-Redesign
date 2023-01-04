@@ -383,7 +383,7 @@ nav .content .links {
 
 /* Home page content */
   
-  .project-container {
+  .learn-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -439,8 +439,8 @@ nav .content .links {
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: 20rem;
-    padding-bottom: 20rem;
-    color: rgb(29, 29, 29);
+    padding-bottom: 22rem;
+    color: rgb(255, 255, 255);
   }
   
   .learn-box:hover {

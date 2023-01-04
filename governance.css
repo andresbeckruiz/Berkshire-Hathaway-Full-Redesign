@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 html {
-    background-color: #f7e8e8;
     scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
 }
 
-.wrapper2 {
+.content-wrapper {
     display: flex;
 }
 
 .sidebar {
-    height: 10rem;
+    height: 30rem;
     width: 25%;
     position: sticky;
     top: 6rem;
@@ -80,18 +82,13 @@ h1, h2, h3, h4, p {
 
 h2 {
     padding-top: 2rem;
+    padding-bottom: 1rem;
     font-size: 1.7rem;
-}
-
-li {
-    padding: 0.5rem;
-    padding-left: 1rem;
 }
 
 h1 {
     font-size: 2.5rem;
     text-align: center;
-    padding-bottom: 2rem;
 }
 
 img {
@@ -117,7 +114,6 @@ img {
 
 
 body {
-    background-color: #cfeff8;
     min-height: 100vh;
     position: relative;
 }
@@ -412,45 +408,6 @@ nav .content .links {
     }
 }
 
-.news-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 7rem;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.news-container h2 {
-    font-size: 2rem;
-    margin: 5px 0;
-    text-align: center;
-    align-self: center;
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.news-container p {
-    padding-bottom: 1rem;
-    align-self: center;
-    width: 100%;
-    align-self: center;
-    max-width: 1000px;
-}
-
-.news-container button {
-    border-radius: 8px;
-    width: 100px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    font-size: 15px;
-    transition-duration: 0.3s;
-
-}
-
 @media screen and (max-width: 650px) {
     .content .company-logo a {
         font-size: 17px;
@@ -483,7 +440,6 @@ nav .content .links {
 /* Home page content */
 
 html {
-    background-color: #f7e8e8;
   }
   
   .project-container {
@@ -533,11 +489,11 @@ html {
   
   h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-top: 10rem;
+    padding-top: 6rem;
   }
   
   .project:hover {
@@ -557,3 +513,11 @@ html {
     height: 15rem;
     border-radius: 10px;
   }
+
+/* Want sidebar to dissapear because won't fit on screen for mobile */
+  @media screen and (max-height: 650px) {
+    .sidebar {
+        display: none;
+    }
+}
+
