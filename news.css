@@ -313,74 +313,6 @@ nav .content .links {
     }
 }
 
-.news-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 7rem;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.news-container h2 {
-    font-size: 2rem;
-    margin: 5px 0;
-    text-align: center;
-    align-self: center;
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.news-container p {
-    padding-bottom: 1rem;
-    align-self: center;
-    width: 100%;
-    align-self: center;
-    max-width: 1000px;
-}
-
-.news-container button {
-    border-radius: 8px;
-    width: 100px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    font-size: 15px;
-    transition-duration: 0.3s;
-
-}
-
-@media screen and (max-width: 650px) {
-    .content .company-logo a {
-        font-size: 17px;
-    }
-
-    .news-container h2 {
-        font-size: 17px;
-    }
-
-    .news-container p {
-        font-size: 12px;
-    }
-
-    .news-container button {
-        border-radius: 8px;
-        width: 80px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 12px;
-        transition-duration: 0.3s;
-
-    }
-}
-
-.news-container button:hover {
-    background-color: #d3d4d3;
-    color: rgb(0, 0, 0);
-}
-
 /* Home page content */
 
 .subsidiary-container {
@@ -507,4 +439,93 @@ h1 {
 .image {
     height: 2.5rem;
     width: auto;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.news-container h2 {
+    font-size: 2rem;
+    margin: 5px 0;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.news-container p {
+    padding-bottom: 1rem;
+    align-self: center;
+    width: 100%;
+    align-self: center;
+    max-width: 1000px;
+}
+
+/* CSS from https://getcssscan.com/css-buttons-examples*/
+.news-container button {
+    background-color: #dfe3ee;
+    border-radius: 8px;
+    border-width: 0;
+    color: #1b1b1b;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 2rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 9rem;
+}
+
+.news-container button:hover {
+    transition: 0.3s;
+    background-color: #cdd7f3;
+}
+
+
+@media screen and (max-width: 650px) {
+    .content .company-logo a {
+        font-size: 17px;
+    }
+
+    .news-container h2 {
+        font-size: 17px;
+    }
+
+    .news-container p {
+        font-size: 12px;
+    }
+
+    .news-container button {
+        border-radius: 8px;
+        width: 8rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        font-size: 0.8rem;
+        transition-duration: 0.3s;
+
+    }
+}
+
+.news-container button:hover {
+    background-color: #d3d4d3;
+    color: rgb(0, 0, 0);
 }
