@@ -181,10 +181,12 @@ nav .content .links {
     border-radius: 0px !important;
 }
 
+/* Dropdown sub menu */
+
 .content .links ul ul {
     position: absolute;
     top: 0;
-    right: calc(-100% + 8px);
+    right: -175px;
 }
 
 .content .links ul li {
@@ -279,7 +281,7 @@ nav .content .links {
     .content .links #show-more:checked~ul,
     .content .links #show-investing:checked~ul,
     .content .links #show-letters:checked~ul,
-    .content .links #show-items:checked~ul {
+    .content .links #show-special:checked~ul {
         max-height: 100vh;
     }
 
@@ -291,6 +293,10 @@ nav .content .links {
         font-size: 18px;
         line-height: 30px;
         border-radius: 5px !important;
+    }
+
+    #sub-menu {
+        font-size: 30px
     }
 }
 
@@ -313,67 +319,11 @@ nav .content .links {
     }
 }
 
-.news-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 7rem;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.news-container h2 {
-    font-size: 2rem;
-    margin: 5px 0;
-    text-align: center;
-    align-self: center;
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.news-container p {
-    padding-bottom: 1rem;
-    align-self: center;
-    width: 100%;
-    align-self: center;
-    max-width: 1000px;
-}
-
-.news-container button {
-    border-radius: 8px;
-    width: 100px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    font-size: 15px;
-    transition-duration: 0.3s;
-
-}
-
 @media screen and (max-width: 650px) {
     .content .company-logo a {
         font-size: 17px;
     }
 
-    .news-container h2 {
-        font-size: 17px;
-    }
-
-    .news-container p {
-        font-size: 12px;
-    }
-
-    .news-container button {
-        border-radius: 8px;
-        width: 80px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 12px;
-        transition-duration: 0.3s;
-
-    }
 }
 
 .news-container button:hover {
@@ -507,4 +457,10 @@ h1 {
 .image {
     height: 2.5rem;
     width: auto;
+}
+
+/* Submenu font size */
+
+#sub-menu {
+    font-size: 18px;
 }
