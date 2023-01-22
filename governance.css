@@ -276,10 +276,12 @@ nav .content .links {
     border-radius: 0px !important;
 }
 
+/* Dropdown sub menu */
+
 .content .links ul ul {
     position: absolute;
     top: 0;
-    right: calc(-100% + 8px);
+    right: -175px;
 }
 
 .content .links ul li {
