@@ -10,7 +10,7 @@ html {
 }
 
 .sidebar {
-    height: 32rem;
+    height: 30.6rem;
     width: 25%;
     position: sticky;
     top: 6rem;
@@ -536,4 +536,12 @@ html {
     height: 15rem;
     border-radius: 10px;
   }
+
+  .footer {
+    background-color: #14181f;
+    color: rgb(209, 209, 209);
+    height: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+}
 

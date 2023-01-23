@@ -461,3 +461,11 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+.footer {
+    background-color: #14181f;
+    color: rgb(209, 209, 209);
+    height: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+}
