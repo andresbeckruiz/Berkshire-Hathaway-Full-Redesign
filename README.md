@@ -1,3 +1,9 @@
 # Berkshire-Hathaway-Full-Redesign
 
-TODO: ADD CITATION FOR CARD/SIDEBAR FROM PORTFOLIO/ Navbar
+Sources:
+
+Navbar adapted from 
+
+Buttons adapted from personal portfolio (https://excitedpenguin777.github.io/Portfolio/index.html)
+
+Table adapted from 
