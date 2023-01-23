@@ -316,7 +316,7 @@ nav .content .links {
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
     .wrapper .menu-icon {
         display: block;
     }
@@ -357,6 +357,10 @@ nav .content .links {
         cursor: pointer;
     }
 
+    .content .links .sub-menu {
+        font-size: 18px;
+    }
+
     .content .links li a.desktop-link {
         display: none;
     }
@@ -375,8 +379,8 @@ nav .content .links {
     .content .links #show-about-us:checked~ul,
     .content .links #show-more:checked~ul,
     .content .links #show-investing:checked~ul,
-    .content .links #show-reports:checked~ul,
-    .content .links #show-items:checked~ul {
+    .content .links #show-letters:checked~ul,
+    .content .links #show-special:checked~ul {
         max-height: 100vh;
     }
 

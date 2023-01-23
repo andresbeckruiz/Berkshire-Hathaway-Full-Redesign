@@ -90,7 +90,6 @@ nav .content .links {
     background: #323c4e;
 }
 
-.wrapper .search-icon,
 .wrapper .menu-icon {
     color: #fff;
     font-size: 18px;
@@ -221,7 +220,7 @@ nav .content .links {
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
     .wrapper .menu-icon {
         display: block;
     }
@@ -262,6 +261,10 @@ nav .content .links {
         cursor: pointer;
     }
 
+    .content .links .sub-menu {
+        font-size: 18px;
+    }
+
     .content .links li a.desktop-link {
         display: none;
     }
@@ -295,9 +298,6 @@ nav .content .links {
         border-radius: 5px !important;
     }
 
-    #sub-menu {
-        font-size: 30px
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -457,10 +457,4 @@ h1 {
 .image {
     height: 2.5rem;
     width: auto;
-}
-
-/* Submenu font size */
-
-#sub-menu {
-    font-size: 18px;
 }
