@@ -427,8 +427,8 @@ table {
 }
 
 .table thead tr {
-    background-color: #009879;
-    color: #ffffff;
+    background-color: #D5D2E4;
+    color: #000000;
     text-align: left;
 }
 
@@ -442,7 +442,7 @@ table {
 }
 
 .table tbody tr:last-of-type {
-    border-bottom: 2px solid #7c7c7c;
+    border-bottom: 2px solid #D5D2E4;
 }
 
 .table tbody tr:nth-of-type(even) {
@@ -451,10 +451,11 @@ table {
 
 .report-link {
     text-decoration: none;
+    opacity: 70%;
 }
 
 .report-link:hover {
-    opacity: 70%;
+    opacity: 100%;
     transition: 0.3s;
 }
 

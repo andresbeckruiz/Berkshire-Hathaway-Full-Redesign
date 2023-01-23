@@ -107,7 +107,7 @@ img {
 }
 
 .list {
-    background-color: #dfe3ee;
+    background-color: #D5D2E4;
     border-radius: 1rem;
     margin-right: 5rem;
     margin-left: 5rem;
@@ -437,23 +437,6 @@ nav .content .links {
         font-size: 17px;
     }
 
-    .news-container h2 {
-        font-size: 17px;
-    }
-
-    .news-container p {
-        font-size: 12px;
-    }
-
-    .news-container button {
-        border-radius: 8px;
-        width: 80px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 12px;
-        transition-duration: 0.3s;
-    
-    }
 }
 
 .news-container button:hover {
