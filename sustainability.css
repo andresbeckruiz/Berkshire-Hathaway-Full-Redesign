@@ -429,6 +429,17 @@ html {
     border-radius: 10px;
   }
 
+  .footer {
+    background-color: #14181f;
+    color: #f0f0f0;
+    height: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 @media screen and (max-width: 650px) {
 
     .content .company-logo a {
@@ -440,13 +451,10 @@ html {
         padding-right: 3rem;
         padding-left: 3rem;
     }
-    
-}
 
-.footer {
-    background-color: #14181f;
-    color: rgb(209, 209, 209);
-    height: 4rem;
-    text-align: center;
-    padding-top: 1rem;
+    .footer {
+        height: 3rem;
+        font-size: 0.8rem;
+    }
+    
 }

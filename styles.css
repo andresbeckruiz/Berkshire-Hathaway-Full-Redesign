@@ -378,6 +378,9 @@ h1 {
     height: 4rem;
     text-align: center;
     padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .image {
@@ -394,6 +397,11 @@ h1 {
         font-size: 2.5rem;
         padding-right: 4rem;
         padding-left: 4rem;
+    }
+
+    .footer {
+        height: 3rem;
+        font-size: 0.8rem;
     }
 
 }

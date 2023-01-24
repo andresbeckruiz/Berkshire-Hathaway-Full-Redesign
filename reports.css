@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.wrapper {
+    position: relative;
+    z-index: 1;
+}
+
 .nav-link {
     padding-top: 1rem;
     text-decoration: none;
@@ -349,6 +354,7 @@ table {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     max-width: 1200px;
     width: 100%;
+    z-index: inherit;
 }
 
 .table thead tr {
@@ -387,14 +393,18 @@ table {
 a, a:visited {
     text-decoration: none;
     color: black;
+    z-index: 1;
 }
 
 .footer {
     background-color: #14181f;
-    color: rgb(209, 209, 209);
+    color: #f0f0f0;
     height: 4rem;
     text-align: center;
     padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 650px) {
@@ -406,6 +416,11 @@ a, a:visited {
         font-size: 2rem;
         padding-right: 4rem;
         padding-left: 4rem;
+    }
+
+    .footer {
+        height: 3rem;
+        font-size: 0.8rem;
     }
 
 }
