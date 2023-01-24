@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+body, html {
+    min-height: 100vh;
+    position: relative;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
 .content-wrapper {
     display: flex;
     justify-content: center;
@@ -136,7 +143,7 @@ nav .content .links {
 
 .content .company-logo a {
     color: #f0f0f0;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -423,4 +430,8 @@ a, a:visited {
         font-size: 0.8rem;
     }
 
+}
+
+.padding {
+    padding-top: 7rem;
 }
