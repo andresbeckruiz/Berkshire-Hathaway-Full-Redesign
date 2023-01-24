@@ -87,25 +87,6 @@ nav .content .links {
     display: none;
 }
 
-.wrapper #show-search:checked~.search-icon i::before {
-    content: "\f00d";
-}
-
-.wrapper .search-box {
-    position: absolute;
-    height: 100%;
-    max-width: calc(100% - 50px);
-    width: 100%;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-
-.wrapper #show-search:checked~.search-box {
-    opacity: 1;
-    pointer-events: auto;
-}
-
 .wrapper input[type="checkbox"] {
     display: none;
 }
@@ -163,14 +144,6 @@ nav .content .links {
 
     .content .links li a {
         padding: 8px 13px;
-    }
-
-    .wrapper .search-box {
-        max-width: calc(100% - 100px);
-    }
-
-    .wrapper .search-box input {
-        padding: 0 100px 0 15px;
     }
 
     .wrapper .menu-icon {
