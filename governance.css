@@ -381,30 +381,6 @@ nav .content .links {
     }
 }
 
-@media screen and (max-width: 650px) {
-    .content .company-logo a {
-        font-size: 17px;
-    }
-
-    .news-container h2 {
-        font-size: 17px;
-    }
-
-    .news-container p {
-        font-size: 12px;
-    }
-
-    .news-container button {
-        border-radius: 8px;
-        width: 80px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 12px;
-        transition-duration: 0.3s;
-    
-    }
-}
-
 .news-container button:hover {
     background-color: #d3d4d3;
     color: rgb(0, 0, 0);
@@ -493,5 +469,18 @@ html {
     height: 4rem;
     text-align: center;
     padding-top: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .content .company-logo a {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
 }
 

@@ -307,31 +307,37 @@ h1 {
     background-color: #c0bcd4;
 }
 
+h3 {
+    padding-bottom: 2rem;
+}
 
 @media screen and (max-width: 650px) {
+
     .content .company-logo a {
-        font-size: 17px;
+        font-size: 1.4rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
 
     .news-container h2 {
-        font-size: 17px;
+        font-size: 1.5rem;
     }
 
     .news-container p {
-        font-size: 12px;
+        font-size: 0.7rem;
     }
 
-    .news-container button {
+    .news-container a {
         border-radius: 8px;
         width: 8rem;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 0.8rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        font-size: 0.9rem;
         transition-duration: 0.3s;
-
     }
-}
-
-h3{
-    padding-bottom: 2rem;
+    
 }

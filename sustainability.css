@@ -91,11 +91,6 @@ h2 {
     font-size: 1.7rem;
 }
 
-h1 {
-    font-size: 2.5rem;
-    text-align: center;
-}
-
 img {
     display: flex;
     margin-left: auto;
@@ -386,13 +381,6 @@ nav .content .links {
     }
 }
 
-@media screen and (max-width: 650px) {
-    .content .company-logo a {
-        font-size: 17px;
-    }
-
-}
-
 .news-container button:hover {
     background-color: #d3d4d3;
     color: rgb(0, 0, 0);
@@ -441,11 +429,18 @@ html {
     border-radius: 10px;
   }
 
-/* Want sidebar to dissapear because won't fit on screen for mobile */
-  @media screen and (max-height: 650px) {
-    .sidebar {
-        display: none;
+@media screen and (max-width: 650px) {
+
+    .content .company-logo a {
+        font-size: 1.4rem;
     }
+    
+    h1 {
+        font-size: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    
 }
 
 .footer {
