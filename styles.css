@@ -234,12 +234,12 @@ nav .content .links {
 
 h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     color: rgb(0, 0, 0);
 }
 
@@ -316,17 +316,6 @@ h1 {
     font-size: 15px;
 }
 
-.intro {
-    text-align: justify;
-    padding: 0.5rem;
-    padding-left: 14.5rem;
-    padding-right: 14.5rem;
-    font-size: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-weight: lighter;
-}
-
 .learn-box:hover, .subsidiary-box:hover {
     transition: 0.3s;
     background-color: #c0bcd4;
@@ -361,13 +350,25 @@ h1 {
     width: auto;
 }
 
+.intro {
+    text-align: start;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 650px) {
     .content .company-logo a {
         font-size: 1.4rem;
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding-right: 4rem;
         padding-left: 4rem;
     }
@@ -375,6 +376,11 @@ h1 {
     .footer {
         height: 3rem;
         font-size: 0.8rem;
+    }
+
+    .intro {
+        padding-right: 4rem;
+        padding-left: 4rem;
     }
 
 }
