@@ -31,79 +31,11 @@ body, html {
     transition: all .2s ease-in-out;
 }
 
-.home {
-    background-color: #bbb;
-    padding-bottom: 4rem;
-    text-decoration: none;
-}
-
-/* CSS from https://getcssscan.com/css-buttons-examples*/
-.button {
-    background-color: #dfe3ee;
-    border-radius: 8px;
-    border-width: 0;
-    color: #1b1b1b;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 500;
-    list-style: none;
-    margin: 0;
-    padding: 1rem 1rem;
-    text-align: center;
-    vertical-align: baseline;
-    white-space: nowrap;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin-top: 2rem;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-button:hover {
-    transition: 0.3s;
-    background-color: #cdd7f3;
-}
-
-.body-button {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
 h1 {
     font-size: 2.5rem;
     text-align: center;
     padding-top: 6rem;
 }
-
-img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.conclusion {
-    padding-bottom: 4rem;
-}
-
-.list {
-    background-color: #dfe3ee;
-    border-radius: 1rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
-}
-
-/* Navbar */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-
-body {
-    min-height: 100vh;
-    position: relative;
-}
-
 
 * {
     margin: 0;
@@ -188,10 +120,6 @@ nav .content .links {
     display: none;
 }
 
-.wrapper #show-search:checked~.search-icon i::before {
-    content: "\f00d";
-}
-
 .wrapper input[type="checkbox"] {
     display: none;
 }
@@ -249,14 +177,6 @@ nav .content .links {
 
     .content .links li a {
         padding: 8px 13px;
-    }
-
-    .wrapper .search-box {
-        max-width: calc(100% - 100px);
-    }
-
-    .wrapper .search-box input {
-        padding: 0 100px 0 15px;
     }
 
     .wrapper .menu-icon {
@@ -338,18 +258,6 @@ nav .content .links {
         padding: 0 10px;
     }
 
-    .wrapper .search-box {
-        max-width: calc(100% - 70px);
-    }
-
-    .wrapper .search-box .go-icon {
-        width: 30px;
-        right: 0;
-    }
-
-    .wrapper .search-box input {
-        padding-right: 30px;
-    }
 }
 
 /* Table (css inspired by https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l) */
