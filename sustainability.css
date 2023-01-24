@@ -18,7 +18,7 @@ body, html {
     height: 7rem;
     position: sticky;
     top: 6rem;
-      /* center the text */
+    /* center the text */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -45,41 +45,7 @@ body, html {
     text-decoration: none;
 }
 
-/* CSS from https://getcssscan.com/css-buttons-examples*/
-.button {
-  background-color: #dfe3ee;
-  border-radius: 8px;
-  border-width: 0;
-  color: #1b1b1b;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 500;
-  list-style: none;
-  margin: 0;
-  padding: 1rem 1rem;
-  text-align: center;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin-top: 2rem;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-button:hover {
-    transition: 0.3s;
-    background-color: #cdd7f3;
-}
-
-.body-button {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-h1, h2, h3, h4  {
+h1, h2, h3, h4 {
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -121,17 +87,6 @@ img {
 .list-after {
     padding-bottom: 1rem;
 }
-
-/* Navbar */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-
-body {
-    min-height: 100vh;
-    position: relative;
-}
-
 
 * {
     margin: 0;
@@ -390,50 +345,16 @@ nav .content .links {
     color: rgb(0, 0, 0);
 }
 
-/* Home page content */
-
-html {
-  }
-  
-  .intro {
-    text-align: justify;
-    padding: 0.5rem;
-    padding-left: 14.5rem;
-    padding-right: 14.5rem;
-    font-size: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-weight: lighter;
-  }
-  
-  h1 {
+h1 {
     text-align: center;
     font-size: 2.5rem;
     padding: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: 6rem;
-  }
-  
-  .project:hover {
-    transition: 0.3s;
-    background-color: #cdd7f3;
-  }
-  
-  .link {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-  }
-  
-  .image {
-    width: 25rem;
-    height: 15rem;
-    border-radius: 10px;
-  }
+}
 
-  .footer {
+.footer {
     background-color: #14181f;
     color: #f0f0f0;
     height: 4rem;
@@ -449,7 +370,7 @@ html {
     .content .company-logo a {
         font-size: 1.4rem;
     }
-    
+
     h1 {
         font-size: 2rem;
         padding-right: 3rem;
@@ -475,7 +396,7 @@ html {
         margin-right: 3rem;
         margin-left: 3rem;
     }
-    
+
 }
 
 .padding {

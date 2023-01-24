@@ -256,8 +256,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .news-container h2 {
@@ -322,8 +322,8 @@ h3 {
     
     h1 {
         font-size: 2rem;
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .news-container h2 {
